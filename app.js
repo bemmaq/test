@@ -28,3 +28,8 @@ arrays.forEach((array, index) => {
     const sum = array.reduce((acc, val) => acc + val, 0);
     console.log(`Массив ${index} суммасы:`, sum);
 });
+
+arrays.forEach((array, index) => {
+  const sum = array.reduce((acc, val) => acc + val, 0);
+  console.log(`Массив ${index} суммасы:`, sum);
+});
